@@ -1,6 +1,6 @@
-import Koa = require("koa");
-import KoaRouter = require("koa-router");
-import BodyParser = require("koa-bodyparser");
+const Koa = require("koa");
+const KoaRouter = require("koa-router");
+const BodyParser = require("koa-bodyparser");
 
 import { getCoupons } from "./getCoupons";
 
